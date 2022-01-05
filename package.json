@@ -1,0 +1,13 @@
+{
+  "name": "redstone-sw-testnet",
+  "version": "1.0.0",
+  "description": "A testnet for SmartWeave interactions",
+  "main": "index.js",
+  "repository": "git@github.com:redstone-finance/redstone-sw-testnet.git",
+  "author": "ppedziwiatr <peter@redstone.finance>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "arlocal": "^1.1.13"
+  }
+}

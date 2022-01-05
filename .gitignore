@@ -1,0 +1,11 @@
+dist
+node_modules
+.idea
+db*.sqlite
+.secrets
+.secrets/.env
+.secrets/local.env
+gateway.lock
+.DS_Store
+gateway_dump
+yarn-error.log
