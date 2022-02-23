@@ -12,21 +12,21 @@ let interval;
     '.db',
     true);
 
-const arweave = Arweave.init({
-  host: "localhost",
-  port: 1984,
-  protocol: "http"
-});
+  const arweave = Arweave.init({
+    host: "localhost",
+    port: 1984,
+    protocol: "http"
+  });
 
-await arLocal.start();
+  await arLocal.start();
 
-interval = setInterval(async () => {
-  await arweave.api.get('mine');
-}, 10000);
+  interval = setInterval(async () => {
+    await arweave.api.get('mine');
+  }, 10000);
 
 
-process.on('SIGINT', stop);
-process.on('SIGTERM', stop);
+  process.on('SIGINT', stop);
+  process.on('SIGTERM', stop);
 })
 ();
 
