@@ -1062,10 +1062,10 @@ arg@^4.1.0:
   resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
   integrity sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==
 
-arlocal@1.1.27:
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/arlocal/-/arlocal-1.1.27.tgz#03b5f34ed5aac65c81c364832628b7bc2049804f"
-  integrity sha512-iHUYf44xUkTXuKM29oe/ktWlPnhqOIWIoCgmacWPiqiZtgkNR39cxrhDgOYiQHfh1NiCFMElZsyKbMQhFAmDCA==
+arlocal@1.1.30:
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/arlocal/-/arlocal-1.1.30.tgz#8c9f0580ade2b67c91526652b21a80b8d5c38b5f"
+  integrity sha512-0YBidTuTwUXUv0UoTs8fb+1+3LrBf3B4/fyTTPhcekmhFTtmH/Rx70EwrldDDWFEMZ8VBnTtWVBCGQZTpuNKQw==
   dependencies:
     "@koa/cors" "^3.1.0"
     apollo-server-koa "^3.6.2"
